@@ -1,0 +1,48 @@
+.wrapper {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    border: 2px solid grey;
+    padding: 20px;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+header .container {
+    flex-direction: row;
+}
+
+header .container {
+    justify-content: space-between;
+}
+
+.result {
+    border: 2px dashed grey;
+    padding: 20px;
+
+}
+
+.splash, .final-result {
+    align-items: center;
+}
+
+fieldset, button, p, h1, h2, h3, h4 {
+    margin: 20px 0;
+}
+
+input, label {
+    display: inline;
+}
+
+.hero {
+    max-width: 500px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
