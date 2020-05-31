@@ -1,6 +1,6 @@
 # Math Quiz!
 
-[live-site](https://bradforddean1.github.io/math-quiz/)
+You can visit the [live-site](https://bradforddean1.github.io/math-quiz/) here.
 
 ## Author: Bradford Wilson
 
