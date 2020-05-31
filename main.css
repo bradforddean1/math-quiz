@@ -1,3 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Piedra&display=swap");
+
+body {
+    font-family: "PT Mono", monospace;
+}
+
+h1 {
+    font-size: 34px;
+    padding-left: 20px;
+}
+
+h2,
+h3 {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-background {
+    background-color: #171717;
+    background-image: url(images/chalkboard.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+section {
+    background-color: #fff;
+}
+
+header {
+    background-color: #222222;
+    background-color: rgb(34, 34, 34, 0.95);
+    color: #fff;
+}
+
+button {
+    background-color: transparent;
+    color: #222222;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #222222;
+    border-radius: 50px;
+    outline: none;
+    font-family: "PT Mono", monospace;
+    font-size: 14px;
+    padding: 15px;
+    margin: 10px;
+}
+
+button:hover,
+button:focus {
+    background-color: yellow;
+    color: #222222;
+}
+
+button:disabled {
+    border-color: lightgrey;
+    color: lightgrey;
+    background-color: transparent;
+}
+
+header button {
+    color: #fff;
+    border-color: #fff;
+}
+
 .wrapper {
     padding: 30px;
     max-width: 800px;
@@ -8,37 +77,46 @@
     display: flex;
     border: 2px solid grey;
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     flex-direction: column;
 }
 
-header .container {
+.header-group {
+    display: flex;
     flex-direction: row;
-}
-
-header .container {
+    margin-bottom: 20px;
+    padding: 10px;
     justify-content: space-between;
 }
 
 .result {
-    border: 2px dashed grey;
+    background-color: lightgrey;
     padding: 20px;
-
 }
 
-.splash, .final-result {
+.splash,
+.final-result {
     align-items: center;
 }
 
-fieldset, button, p, h1, h2, h3, h4 {
+fieldset,
+section button,
+img,
+p,
+h1,
+h2,
+h3,
+h4 {
     margin: 20px 0;
 }
 
-input, label {
+input,
+label {
     display: inline;
 }
 
 .hero {
+    width: 100%;
     max-width: 500px;
 }
 
