@@ -68,7 +68,7 @@ function getGetQuestionOptions(options) {
     let response = "";
     options.forEach((element, i) => {
         response = response.concat(`
-             <input type="radio" name="answer" id="opt${i}" value="${i}">
+             <input type="radio" name="answer" id="opt${i}" value="${i}" required>
              <label for="opt${i}">${element}</label><br/>`);
     });
     return response;
